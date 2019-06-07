@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools" translatesAutoresizingMaskIntoConstraints="NO" id="66Q-kg-p8d">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="numCircleNo" translatesAutoresizingMaskIntoConstraints="NO" id="66Q-kg-p8d">
                                 <rect key="frame" x="23" y="201" width="373" height="285"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -29,7 +29,7 @@
                                 <fontDescription key="fontDescription" name="Futura-CondensedMedium" family="Futura" pointSize="70"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="output-onlinepngtools-2" translatesAutoresizingMaskIntoConstraints="NO" id="FPu-K0-a0V">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minCircle" translatesAutoresizingMaskIntoConstraints="NO" id="FPu-K0-a0V">
                                 <rect key="frame" x="92" y="484" width="235" height="265"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -76,7 +76,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="output-onlinepngtools" width="587" height="580"/>
-        <image name="output-onlinepngtools-2" width="587" height="580"/>
+        <image name="minCircle" width="587" height="580"/>
+        <image name="numCircleNo" width="510" height="510"/>
     </resources>
 </document>
