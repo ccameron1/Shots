@@ -8,13 +8,31 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, RandomNumberGenerator {
+    
+    
+    @IBOutlet weak var shotLabel: UILabel!
+    @IBOutlet weak var minutesLabel: UILabel!
+    
+    @IBOutlet weak var beginOutline: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        beginOutline.layer.borderWidth = 0.5
+        beginOutline.layer.borderColor = UIColor.black.cgColor
+        
     }
 
-
+    @IBAction func beginButton(_ sender: Any) {
+        
+        let randNum = Int.random(in: 3...8)
+        shotLabel.text = "\(randNum)"
+        let minutes = 60 / randNum
+        minutesLabel.text = "\(minutes)"
+        
+        
+    }
+    
+    
 }
 
